@@ -8,6 +8,7 @@ public class FamilaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FamilaApplication.class, args);
+		// 커밋 테스트
 	}
 
 }
