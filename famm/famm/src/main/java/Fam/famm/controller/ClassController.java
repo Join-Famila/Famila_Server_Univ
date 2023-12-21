@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("class")
+@RequestMapping("/class")
 public class ClassController {
 
     @Autowired

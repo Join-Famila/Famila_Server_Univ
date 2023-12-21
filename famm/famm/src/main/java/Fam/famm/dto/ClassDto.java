@@ -14,7 +14,7 @@ public class ClassDto {
     private Long id;             // PK
     private String title;        // 모임제목
     private String content;      // 모임소개
-    private String writer;       // 작성자
+    private String name;       // 작성자
 
     public Long getId() {
         return id;
@@ -40,12 +40,12 @@ public class ClassDto {
         this.content = content;
     }
 
-    public String getWriter() {
-        return writer;
+    public String getName() {
+        return name;
     }
 
-    public void setWriter(String writer) {
-        this.writer = writer;
+    public void setName(String name) {
+        this.name = name;
     }
 
 
@@ -55,7 +55,7 @@ public class ClassDto {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                ", writer='" + writer +
+                ", writer='" + name +
                 '}';
     }
 }

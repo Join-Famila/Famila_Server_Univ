@@ -33,7 +33,7 @@ public class ClassService {
             ClassDto existingClass = classOptional.get();
             existingClass.setTitle(updatedClassDto.getTitle());
             existingClass.setContent(updatedClassDto.getContent());
-            existingClass.setWriter(updatedClassDto.getWriter());
+            existingClass.setName(updatedClassDto.getName());
             classRepository.save(existingClass);
         } else {
             throw new IllegalArgumentException("Class not found: " + title);
